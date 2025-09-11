@@ -1,0 +1,46 @@
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Host Grotesk', sans-serif;
+    color: hsl(0, 0%, 13%);
+    background-color: hsl(0, 0%, 97%);
+}
+
+a{
+    color: hsl(0, 0%, 13%);
+    text-decoration: none;
+}
+.navbar{
+    height: 2em;
+    width: 100%;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3em;
+    height: 100%;
+    width: 100%;
+}
+.headtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    width: 50%;
+}
+
+.headimg{
+    filter: grayscale(0.7);
+}
+
+.Hello{
+    font-size: 10em;
+    font-weight: 100;
+    margin: 0;
+}
