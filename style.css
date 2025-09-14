@@ -1,46 +1,101 @@
 :root{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: 'Host Grotesk', sans-serif;
     color: hsl(0, 0%, 13%);
     background-color: hsl(0, 0%, 97%);
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 a{
     color: hsl(0, 0%, 13%);
     text-decoration: none;
 }
-.navbar{
-    height: 2em;
-    width: 100%;
+p{
+    margin: 0;
 }
+.navbar{
+    display: flex;
+    gap: 1em;
+    padding: 0.4em;
+    height: 1em;
+}
+
 .home{
     display: flex;
-    flex-direction: column;
-    height: 100vh;
+    padding: 1em;
+    height: calc(100% - 1em);
+    justify-content: space-between;
 }
-.header{
-    display: flex;
-    flex-direction: row;
-    padding-left: 3em;
-    height: 100%;
-    width: 100%;
-}
-.headtext{
+.textbox{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: left;
+    justify-content: space-between;
+    padding: 2em;
     width: 50%;
 }
-
-.headimg{
-    filter: grayscale(0.7);
+.promo{
+    display: flex;
+    gap: 2em;
+    
+}
+.promonum{
+    font-size: calc(16px * 2);
+}
+.promotxt{
+    padding-left: 1em;
 }
 
-.Hello{
-    font-size: 10em;
+.title{
     font-weight: 100;
-    margin: 0;
+    font-size: calc(16px * 9);
+}
+.sPotrait{
+    filter: grayscale(0.7);
+    height: 103%;
+}
+
+.aboutMe{
+    background-color: hsl(0, 0%, 92%);
+    padding: 1em;
+}
+
+.sectionTitle{
+    font-size: calc(16px * 4);
+}
+
+.portfolio{
+    padding: 1em;
+}
+
+.project-container{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.projectBox{
+    display: flex;
+    height: 15em;
+    border: solid 1px black;
+    width: 12em;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts{
+    background-color: hsl(0, 0%, 92%);
+    padding: 1em;
+}
+
+.contact-text{
+    display: flex;
+    padding: 3em;
+    font-size: 2em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
