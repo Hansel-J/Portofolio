@@ -71,16 +71,20 @@ p{
 }
 
 .project-container{
-    display: flex;
+    display: grid;
     gap: 1em;
-    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.projectHighlight{
+    display: grid;
+    grid-row: span 2;
 }
 
 .projectBox{
     display: flex;
-    height: 15em;
+    height: auto;
     border: solid 1px black;
-    width: 12em;
     border-radius: 5px;
     justify-content: center;
     align-items: center;
